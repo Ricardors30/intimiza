@@ -1,13 +1,14 @@
 {
   "name": "intimiza-loja",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "build": "tailwindcss -i ./src/style.css -o ./dist/style.css --minify",
-    "dev": "tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
+    "dev": "node build-tailwind.js --watch",
+    "build": "node build-tailwind.js"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.20",
+    "tailwindcss": "^3.4.13",
     "postcss": "^8.4.31",
-    "tailwindcss": "^3.4.13"
+    "autoprefixer": "^10.4.20"
   }
 }
