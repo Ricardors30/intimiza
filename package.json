@@ -1,1 +1,15 @@
-{"name":"intimiza-loja","version":"1.0.0","description":"Loja + blog Intimiza - paleta personalizada Tailwind","private":true,"scripts":{"dev":"npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch","build":"npx tailwindcss -i ./src/style.css -o ./dist/style.css --minify"},"devDependencies":{"tailwindcss":"^4.1.16"},"dependencies":{"autoprefixer":"^10.4.21","postcss":"^8.5.6"}}
+{
+  "name": "intimiza-loja",
+  "version": "1.0.0",
+  "description": "Loja + blog Intimiza - paleta personalizada Tailwind",
+  "private": true,
+  "scripts": {
+    "dev": "tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
+    "build": "tailwindcss -i ./src/style.css -o ./dist/style.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.20"
+  }
+}
